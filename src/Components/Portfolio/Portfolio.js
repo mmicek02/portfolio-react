@@ -1,5 +1,5 @@
 import React from 'react';
-import '../Style/style.css'
+import '../../Style/style.css'
 
 class Portfolio extends React.Component {
     render() {
@@ -13,6 +13,10 @@ class Portfolio extends React.Component {
                 <hr />
                 <p>
                     <em>[Placeholder for Star Trek Engage! App Image]</em>
+                </p>
+                <hr />
+                <p>
+                    <em>[Placeholder for Beer N' Donuts App Image]</em>
                 </p>
             </section>
         );

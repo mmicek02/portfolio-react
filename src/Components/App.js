@@ -1,9 +1,9 @@
 import React, { Component }  from 'react';
 import { Route } from 'react-router-dom';
-import NavBar from './NavBar/NavBar';
-import LandingPage from '../src/LandingPage/LandingPage';
-import Portfolio from './Portfolio/Portfolio';
-import AboutMe from './AboutMe/AboutMe';
+import NavBar from '../Components/NavBar/NavBar';
+import LandingPage from '../Components/LandingPage/LandingPage';
+import Portfolio from '../Components/Portfolio/Portfolio';
+import AboutMe from '../Components/AboutMe/AboutMe';
 
 
 class App extends Component {

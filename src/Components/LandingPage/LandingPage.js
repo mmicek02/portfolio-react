@@ -1,5 +1,5 @@
 import React from 'react'
-import '../Style/style.css'
+import '../../Style/style.css'
 import './LandingPage.css'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import { faDatabase } from '@fortawesome/free-solid-svg-icons'
