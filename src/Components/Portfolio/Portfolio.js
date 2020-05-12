@@ -1,7 +1,15 @@
 import React from 'react';
+import PortfolioContext from '../../Context/PortfolioContext'
 import '../../Style/style.css'
 
 class Portfolio extends React.Component {
+    static defaultProps = {
+
+    }
+    constructor(props) {
+        super (props);
+    }
+    static contextType = PortfolioContext;
     render() {
         return (
             <section className="mainContent">

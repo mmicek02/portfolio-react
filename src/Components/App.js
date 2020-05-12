@@ -1,9 +1,9 @@
 import React, { Component }  from 'react';
 import { Route } from 'react-router-dom';
 import NavBar from '../Components/NavBar/NavBar';
-import LandingPage from '../Components/LandingPage/LandingPage';
-import Portfolio from '../Components/Portfolio/Portfolio';
-import AboutMe from '../Components/AboutMe/AboutMe';
+import LandingPage from '../Routes/LandingPage/LandingPage';
+import PortfolioPage from '../Routes/PortfolioPage/PortfolioPage';
+import AboutMePage from '../Routes/AboutMePage/AboutMePage';
 
 
 class App extends Component {
@@ -25,12 +25,12 @@ class App extends Component {
         <Route 
           exact 
           path='/portfolio' 
-          component={Portfolio} />  
+          component={PortfolioPage} />  
 
         <Route 
           exact 
           path='/about-me' 
-          component={AboutMe} />
+          component={AboutMePage} />
       </>
     )
   }
