@@ -1,0 +1,33 @@
+.project {
+    margin-right: 100px;
+    text-align: center;
+}
+
+.appLinks ul {
+    list-style: none;
+}
+.appLinks li {
+    padding-top: 20px;
+}
+.appLinks a {
+    text-decoration: none;
+}
+
+.appLinks a:hover {
+    color: red;
+    font-weight: 700;
+}
+
+.projectImage {
+    box-shadow: 8px 10px 4px 0 rgba(0,0,0,.1);
+}
+
+@media (max-width: 468px) {
+    .project {
+        margin-right: 0px;
+        text-align: center;
+    }
+    .projectImage {
+        max-width: 300px;
+    }
+}

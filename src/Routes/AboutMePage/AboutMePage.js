@@ -20,10 +20,24 @@ class AboutMePage extends React.Component {
                     When I am not coding, I am designing quick and fun board games for my friends and I to play, or 
                     attempting a new homebrew beer recipe.
                 </p>
-
                 <div className="heroImage">
-                    <img src={heroImage} alt="Hero Image of Mike Micek" width="300px"/>
+                    <img src={heroImage} alt="Mike Micek" width="300px"/>
                 </div>
+                <footer>
+                    <div class="contactInfo">
+                        <ul>
+                            <li>
+                                <a href="mailto:micekmichael@gmail.com" target="_blank">Email Me</a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/mmicek02" target="_blank">View my Github</a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/michaelmicek/" target="_blank">Visit my LinkedIn</a>
+                            </li>
+                        </ul>
+                    </div>
+                </footer>
         </div>
         );
     }

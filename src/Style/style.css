@@ -35,7 +35,7 @@ h1 {
     font-weight: 600;
     padding-top: 3.5rem;
 }
-.languagesKnown ul {
+.languagesKnownList ul {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -43,6 +43,20 @@ h1 {
     font-style: italic;
 }
 
+.contactInfo ul {
+    list-style: none;
+    text-align: center;
+}
+.contactInfo li {
+    padding-top: 20px;
+}
+.contactInfo a {
+    text-decoration: none;
+}
+.contactInfo a:hover {
+    color: red;
+    font-weight: 700;
+}
   /* small screens */
   @media only screen and (max-width: 600px) { 
       .mainContent {

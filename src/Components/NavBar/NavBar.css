@@ -36,6 +36,7 @@ a {
 .navbar li a:hover,
 .navbar .menu-btn:hover {
   background-color: #f4f4f4;
+  border-bottom: red 3px solid;
 }
 
 .navbar .logo {
