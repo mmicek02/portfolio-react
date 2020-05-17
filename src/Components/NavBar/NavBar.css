@@ -117,10 +117,7 @@ a {
   top:0;
 }
 
-
-/* 48em = 768px @ 16pt font */
-
-@media (min-width: 48em) {
+@media (min-width: 56em) {
   .navbar li {
     float: left;
   }

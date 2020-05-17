@@ -1,27 +1,23 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import './NavBar.css'
 
 class NavBar extends React.Component {
-    handleToggle() {
-        console.log('Hamburger Clicked')
-    }
 
     render() {
         return (
             <nav className="navbar">
-                <Link to="/" className="logo">Michael Micek</Link>
+                <a href="/" className="logo">Michael Micek</a>
                 <input className="menu-btn" type="checkbox" id="menu-btn" />
                 <label className="menu-icon" htmlFor="menu-btn"><span className="nav-icon"></span></label>
                 <ul className="menu">
                     <li>
-                        <Link to="/">Home</Link>
+                        <a href="/">Home</a>
                     </li>
                     <li>
-                        <Link to="/about-me">About Me</Link>    
+                        <a href="/about-me">About Me</a>    
                     </li>
                     <li>
-                        <Link to="/portfolio">Portfolio</Link>
+                        <a href="/portfolio">Portfolio</a>
                     </li>
                     <li>
                         <a href="/about-me#footer">Contact Me</a>
@@ -30,5 +26,6 @@ class NavBar extends React.Component {
             </nav>
         )
     }
+
 }
 export default NavBar
