@@ -1,0 +1,41 @@
+.bottomBar {
+    background-color: #fff;
+    border-top: 2px red solid;
+    position: static;
+    bottom: 0;
+    width: 100%;
+    z-index: 3;
+}
+
+h3 {
+    display: inline;
+    color: red;
+}
+
+.blurb {
+    padding: 20px;
+}
+
+.contactMenu {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contactMenu ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+.contactMenu li {
+    list-style: none;
+    padding: 20px 15px;
+}
+
+.contactMenu a {
+    text-decoration: none;
+
+}
+
+.contactMenu a:hover {
+    border-bottom: red 3px solid;
+}

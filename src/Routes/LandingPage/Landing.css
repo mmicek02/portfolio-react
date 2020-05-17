@@ -1,28 +1,42 @@
 body {
-    color: black;
-    background-color: white;
-    margin: 0;
-    padding: 0;
-  }
-  
-body::-webkit-scrollbar {
-    width: 0.25rem;
-  }
-  
-body::-webkit-scrollbar-track {
-    background: #1e1e24;
-  }
-  
-body::-webkit-scrollbar-thumb {
-    background: #6649b8;
-  }
-  
-.aboutMe {
-    margin-left: 5rem;
-    padding: 1rem;
+  color: black;
+  background-color: white;
+  margin: 0;
+  padding: 0;
   }
 
-.langIcon {
-  width: 800px;
-  color: #6649b8;
+.languagesKnown {
+  margin-left: auto;
+  margin-right: auto; 
+}
+.languagesKnown p {
+  font-size: 1.5em;
+  text-align: center;
+  font-style: italic;
+  font-weight: 600;
+  padding-top: 3.5rem;
+}
+.languagesKnownList ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  list-style-type: none;
+  font-style: italic;
+}
+  
+@media (max-width: 468px) {
+  .languagesKnown {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+      /* text-align: center; */
+  }
+
+  .languagesKnownList ul {
+    font-style: italic;
+  }
+
+  .languagesKnownList li {
+    align-self: center;
+  }
 }

@@ -1,4 +1,7 @@
 import React from 'react';
+
+import ContactMe from '../../Components/ContactMe/ContactMe'
+
 import heroImage from '../../Media/PortfolioPicture.png'
 import '../../Style/style.css';
 
@@ -13,8 +16,7 @@ class AboutMePage extends React.Component {
                     experiences using inclusive design philosophies and properties is what wakes me up in the morning.
                 </p>
                 <p>
-                    I've come a long way in a very short time and have learned by doing (and love that process). I work 
-                    very hard to develop clear clean code and always push myself to improve.
+                    I've come a long way in a very short time and have learned by doing (and love that process). I work very hard to develop clear clean code and always push myself to improve. I am eager to become part of a team developers, and use the skills I have learned to help problem solve and add extra value not only to the Dev team but also the company as a whole. My skill set and familiarity with several program languages and OOP, allows me the ability to wear several hats when developing. 
                 </p>
                 <p>
                     When I am not coding, I am designing quick and fun board games for my friends and I to play, or 
@@ -23,21 +25,9 @@ class AboutMePage extends React.Component {
                 <div className="heroImage">
                     <img src={heroImage} alt="Mike Micek" width="300px"/>
                 </div>
-                <footer>
-                    <div class="contactInfo">
-                        <ul>
-                            <li>
-                                <a href="mailto:micekmichael@gmail.com" target="_blank">Email Me</a>
-                            </li>
-                            <li>
-                                <a href="https://github.com/mmicek02" target="_blank">View my Github</a>
-                            </li>
-                            <li>
-                                <a href="https://www.linkedin.com/in/michaelmicek/" target="_blank">Visit my LinkedIn</a>
-                            </li>
-                        </ul>
-                    </div>
-                </footer>
+                <div>
+                    <ContactMe />
+                </div>
         </div>
         );
     }

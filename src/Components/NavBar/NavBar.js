@@ -23,6 +23,9 @@ class NavBar extends React.Component {
                     <li>
                         <Link to="/portfolio">Portfolio</Link>
                     </li>
+                    <li>
+                        <a href="/about-me#footer">Contact Me</a>
+                    </li>
                 </ul>
             </nav>
         )

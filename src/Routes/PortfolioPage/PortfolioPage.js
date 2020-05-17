@@ -12,12 +12,12 @@ class PortfolioPage extends React.Component {
                 <h1>Portfolio</h1>
                 <hr />
                 <div className="project">
-                    <h3>Beer N' Donuts</h3>
+                    <h2>Beer N' Donuts</h2>
                     <div>
                         <img src={beerNDonutImage} className="projectImage" width="500px" alt="Beer N' Donut App Screenshot"/>
                     </div>
-                    <p>
-                        This app helps you navigate the world of beer and donut pairings. This niche perfectly combines two amazing things... Great craft beer and yummy donuts! Use the simple pairing app to learn what donut goes best with the beer you are drinking!
+                    <p className="projectDetails">
+                        This app helps the user find the perfect donut pairing to go with their craft beer. I was inspired to develop this application after a beer and donut tasting event I went to at a local brewery. I wanted to create a tool that everyone would have access to, so that they can discover fun and delicious pairings of different beers and donuts. My hope is that anyone interested in trying something new or someone who wants to step up their dinner party games would visit this app for inspiration. 
                     </p>
                     <p>
                         This App uses HTML, CSS, JS REACT, NODE, EXPRESS, and PostgreSQL
@@ -31,12 +31,12 @@ class PortfolioPage extends React.Component {
                     </div>
                 </div>
                 <div className="project">
-                    <h3>Star Trek Engage!</h3>
+                    <h2>Star Trek Engage!</h2>
                     <div>
                         <img src={starTrekEngageImage} className="projectImage" width="500px" alt="Star Trek Engage App Screenshot"/>
                     </div>
-                    <p>
-                        Star Trek Engage is a web application designed as an aid to to players of the Star Trek tabletop role playing game (TTRPG) character creation process. This app will take the user (player) through each step involved in the process of making their character.
+                    <p className="projectDetails">
+                    I am a big fan of pen and paper role playing games like Dungeons and Dragons, Star Trek, Monster of the Week etc. I wanted to challenge myself to create an application that would help new people interested in playing a role playing like Star Trek, feels more comfortable doing so by streamlining the character creation process. This app helps a user create an account and a character for the Star Trek role playing game and it saves their character so that they always have access to their crew. 
                     </p>
                     <p>
                         This App uses HTML, CSS, JS REACT, NODE, EXPRESS, and PostgreSQL
@@ -50,12 +50,12 @@ class PortfolioPage extends React.Component {
                     </div>
                 </div>
                 <div className="project">
-                    <h3>Beer Across America</h3>
+                    <h2>Beer Across America</h2>
                     <div>
                         <img src={beerAcrossAmericaImage} className="projectImage" width="500px" alt="Beer Across America App Screenshot"/>
                     </div>
-                    <p>
-                        As a lover of craft beer and of the variety of styles that can be found around the United States, I wanted to create a web app that allows others to find local breweries in their city. Users can search for any number of breweries in their city (up to 50 at a time) and learn where the brewery is located.
+                    <p className="projectDetails">
+                        My wife and I like to travel and visit family members that are in different states around the USA. Whenever we travel we like to find local breweries to try. I created the app Beer Across America as a tool to help us have a more focused search when traveling. This app is beneficial for anyone in the USA who wants to find a new brewery or pub either in their home town or in a new city.
                     </p>
                     <p>
                         This App uses HTML, CSS, JAVASCRIPT, JQUERY and API REQUETS
