@@ -17,7 +17,7 @@ class PortfolioPage extends React.Component {
                         <img src={beerNDonutImage} className="projectImage" width="500px" alt="Beer N' Donut App Screenshot"/>
                     </div>
                     <p className="projectDetails">
-                        This app helps the user find the perfect donut pairing to go with their craft beer. I was inspired to develop this application after a beer and donut tasting event I went to at a local brewery. I wanted to create a tool that everyone would have access to, so that they can discover fun and delicious pairings of different beers and donuts. My hope is that anyone interested in trying something new or someone who wants to step up their dinner party games would visit this app for inspiration. 
+                        This app helps the user find the perfect donut pairing to go with their craft beer. I was inspired to develop this application after a beer and donut tasting event I went to at a local brewery. I wanted to create a tool that everyone would have access to, in order to discover fun and delicious pairings of different beers and donuts. My hope is that anyone interested in trying something new or someone who wants to step up their dinner party games would visit this app for inspiration. 
                     </p>
                     <p>
                         This App uses HTML, CSS, JS REACT, NODE, EXPRESS, and PostgreSQL
@@ -36,7 +36,7 @@ class PortfolioPage extends React.Component {
                         <img src={starTrekEngageImage} className="projectImage" width="500px" alt="Star Trek Engage App Screenshot"/>
                     </div>
                     <p className="projectDetails">
-                    I am a big fan of pen and paper role playing games like Dungeons and Dragons, Star Trek, Monster of the Week etc. I wanted to challenge myself to create an application that would help new people interested in playing a role playing like Star Trek, feels more comfortable doing so by streamlining the character creation process. This app helps a user create an account and a character for the Star Trek role playing game and it saves their character so that they always have access to their crew. 
+                    I am a big fan of pen and paper role playing games like Dungeons and Dragons, Star Trek, Monster of the Week etc. I wanted to challenge myself to create an application that would help new people interested in playing a role playing like Star Trek, feel more comfortable doing so by streamlining the character creation process. This app helps a user create an account and a character for the Star Trek role playing game. It saves their characters so that they always have access to their crew. 
                     </p>
                     <p>
                         This App uses HTML, CSS, JS REACT, NODE, EXPRESS, and PostgreSQL
